@@ -1,0 +1,9 @@
+[package]
+name = "rofi_bookmarks"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+regex = "1.12.2"
+open = "5.3.3"
+shellexpand = "3.1.1" # Optional: useful if your path uses '~'
